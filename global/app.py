@@ -27,7 +27,7 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     """List all available api routes."""
-    return render_template("index1.html")
+    return render_template("index2.html")
 
 
     # return (
